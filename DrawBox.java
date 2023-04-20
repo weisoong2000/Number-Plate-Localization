@@ -25,8 +25,7 @@ public class DrawBox {
             g.drawLine(location[0][0], location[1][1], location[1][0], location[1][1]);
             g.drawLine(location[0][0], location[0][1], location[1][0], location[0][1]);
             //BufferedImage
-            ImageIO.write(image,"jpg",new File("C:\\UKM\\TK3813 Teknik Pemprosesan Media Digital\\eclipse\\ANPR\\src\\output\\test_002.jpg"));
-            //ImageIO.write(image,"jpg",new File("C:\\Users\\Dylan\\Desktop\\3.jpg"));
+            ImageIO.write(image,"jpg",new File("Path for test_image.jpg"));
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
