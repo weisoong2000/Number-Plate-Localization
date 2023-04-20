@@ -336,7 +336,7 @@ public class NPL1 {
 		NPL1 pr = new NPL1();
 		
 		// Grayscale conversion
-		BufferedImage img1 = pr.readImage("C:\\UKM\\TK3813 Teknik Pemprosesan Media Digital\\eclipse\\project\\src\\vehicle dataset\\test_002.jpg");
+		BufferedImage img1 = pr.readImage("Path for test_image.jpg");
 		BufferedImage img_gray = pr.convertToGrayScale(img1);
 		pr.showImage(img_gray,"Gray Image");
 		
